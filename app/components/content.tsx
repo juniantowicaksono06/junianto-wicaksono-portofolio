@@ -203,53 +203,63 @@ export default function Content() {
                 </section>
             </div>
             <div className="secondary col-lg-4 col-12">
-
-            <aside className="skills aside section">
-                <div className="section-inner shadow-sm rounded">
-                    <h2 className="heading">Skills</h2>
+                <aside className="info aside section">
+                    <div className="section-inner shadow-sm rounded">
+                        <h2 className="heading sr-only">Basic Information</h2>
                         <div className="content">
-                            <p className="intro">Here are list of my skill as a Fullstack Developer</p>
-                            <div className="skillset">
-                                <div className="item">
-                                    <h3 className="level-title">Programming Language</h3>
-                                    <ul className="list-group list-group-flush">
-                                        <li className="list-group-item">Python</li>
-                                        <li className="list-group-item">JavaScript</li>
-                                        <li className="list-group-item">CSS</li>
-                                        <li className="list-group-item">HTML5</li>
-                                    </ul>
-                                </div>
-                                <div className="item">
-                                    <h3 className="level-title">Frameworks &amp; Library</h3>
-                                    <ul className="list-group list-group-flush">
-                                        <li className="list-group-item">NuxtJS</li>
-                                        <li className="list-group-item">Codeigniter</li>
-                                        <li className="list-group-item">Laravel</li>
-                                        <li className="list-group-item">Flask</li>
-                                        <li className="list-group-item">JQuery</li>
-                                        <li className="list-group-item">Bootstrap</li>
-                                        <li className="list-group-item">Vue</li>
-                                    </ul>
-                                </div>
-                                <div className="item">
-                                    <h3 className="level-title">Database</h3>
-                                    <ul className="list-group list-group-flush">
-                                        <li className="list-group-item">MySQL</li>
-                                        <li className="list-group-item">MariaDB</li>
-                                        <li className="list-group-item">MongoDB</li>
-                                    </ul>
-                                </div>
-                                <div className="item">
-                                    <h3 className="level-title">Other Skills</h3>
-                                    <ul className="list-group list-group-flush">
-                                        <li className="list-group-item">Docker</li>
-                                        <li className="list-group-item">Linux</li>
-                                        <li className="list-group-item">Git</li>
-                                        <li className="list-group-item">Jenkins (Novice)</li>
-                                    </ul>
-                                </div>
-                            </div>              
+                            <ul className="list-unstyled">
+                                <li><i className="fas fa-map-marker-alt"></i><span className="sr-only">Location:</span>Surabaya, Indonesia</li>
+                                <li><i className="fas fa-envelope"></i><span className="sr-only">Email:</span><a href="#">juniantowicaksono22@gmail.com</a></li>
+                            </ul>
                         </div>
+                    </div>             
+                </aside>
+                <aside className="skills aside section">
+                    <div className="section-inner shadow-sm rounded">
+                        <h2 className="heading">Skills</h2>
+                            <div className="content">
+                                <p className="intro">Here are list of my skill as a Fullstack Developer</p>
+                                <div className="skillset">
+                                    <div className="item">
+                                        <h3 className="level-title">Programming Language</h3>
+                                        <ul className="list-group list-group-flush">
+                                            <li className="list-group-item">Python</li>
+                                            <li className="list-group-item">JavaScript</li>
+                                            <li className="list-group-item">CSS</li>
+                                            <li className="list-group-item">HTML5</li>
+                                        </ul>
+                                    </div>
+                                    <div className="item">
+                                        <h3 className="level-title">Frameworks &amp; Library</h3>
+                                        <ul className="list-group list-group-flush">
+                                            <li className="list-group-item">NuxtJS</li>
+                                            <li className="list-group-item">Codeigniter</li>
+                                            <li className="list-group-item">Laravel</li>
+                                            <li className="list-group-item">Flask</li>
+                                            <li className="list-group-item">JQuery</li>
+                                            <li className="list-group-item">Bootstrap</li>
+                                            <li className="list-group-item">Vue</li>
+                                        </ul>
+                                    </div>
+                                    <div className="item">
+                                        <h3 className="level-title">Database</h3>
+                                        <ul className="list-group list-group-flush">
+                                            <li className="list-group-item">MySQL</li>
+                                            <li className="list-group-item">MariaDB</li>
+                                            <li className="list-group-item">MongoDB</li>
+                                        </ul>
+                                    </div>
+                                    <div className="item">
+                                        <h3 className="level-title">Other Skills</h3>
+                                        <ul className="list-group list-group-flush">
+                                            <li className="list-group-item">Docker</li>
+                                            <li className="list-group-item">Linux</li>
+                                            <li className="list-group-item">Git</li>
+                                            <li className="list-group-item">Jenkins (Novice)</li>
+                                        </ul>
+                                    </div>
+                                </div>              
+                            </div>
                     </div>
                 </aside>
             </div>
