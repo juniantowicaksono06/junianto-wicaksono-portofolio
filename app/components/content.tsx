@@ -9,10 +9,6 @@ export default function Content() {
         "projectTechStack": null,
         "projectImages": []
     })
-    var $
-    useEffect(() => {
-        $ = require("jquery/dist/jquery.min.js")
-    }, [])
     const [isModalShown, setIsModalShown] = useState(false)
     const handleProjectDetail = (id) => {
         if(id == "" || id == undefined || id == null) return
@@ -201,6 +197,29 @@ export default function Content() {
                         </div>
                     </div>
                 </section>
+                <section className="experience section">
+                    <div className="section-inner shadow-sm rounded">
+                        <h2 className="heading">Work Experience</h2>
+                        <div className="content">
+                            <div className="item">
+                                <h3 className="title">Service Area Engineer - <span className="place"><a href="#">PT. Visionet Data Internasional</a></span> <span className="year">(Mar 2019 - May 2019)</span></h3>
+                                <p>At PT. Visionet Data Internasional i work as an engineer to monitoring BRI (Bank Rakyat Indonesia) IT Asset.</p>
+                            </div>
+                            <div className="item">
+                                <h3 className="title">Admin Staff - <span className="place"><a href="#">PT. Angkasa Aviasi Servis</a></span> <span className="year">(Oct 2019 - Oct 2020)</span></h3>
+                                <p>At PT. Angkasa Aviasi Servis i work as an admin staff. My task is to manage the office required asset</p>
+                            </div>
+                            <div className="item">
+                                <h3 className="title">Web Developer - <span className="place"><a href="#">PT. Virtual Medis Internasional</a></span> <span className="year">(Oct 2020 - Apr 2022)</span></h3>
+                                <p>At PT. Virtual Medis Internasional i work as a web developer. My task here is to develop new feature on the existing web app and as well maintenance the web app</p>
+                            </div>
+                            <div className="item">
+                                <h3 className="title">IT Programmer - <span className="place"><a href="#">PT. Kinarya Alihdaya Mandiri</a></span> <span className="year">(Apr 2022 - Now)</span></h3>
+                                <p>At PT. Kinarya Alihdaya Mandiri i work as an outsource programmer for PT. Telekomunikasi Seluler (Telkomsel). My task here is to develop new app such as web app named Nagita and maintenance existing app</p>
+                            </div>
+                        </div>
+                    </div>                
+                </section>
             </div>
             <div className="secondary col-lg-4 col-12">
                 <aside className="info aside section">
@@ -260,6 +279,17 @@ export default function Content() {
                                     </div>
                                 </div>              
                             </div>
+                    </div>
+                </aside>
+                <aside className="education aside section">
+                    <div className="section-inner shadow-sm rounded">
+                        <h2 className="heading">Education</h2>
+                        <div className="content">
+                            <div className="item">                      
+                                <h3 className="title"><i className="fas fa-graduation-cap"></i> Information Tehcnology</h3>
+                                <h4 className="university">Politeknik Amamapare Timika <span className="year">(2016-2019)</span></h4>
+                            </div>
+                        </div>
                     </div>
                 </aside>
             </div>
