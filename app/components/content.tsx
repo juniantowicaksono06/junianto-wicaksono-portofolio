@@ -312,6 +312,7 @@ export default function Content() {
                                             <li className="list-group-item">Laravel</li>
                                             <li className="list-group-item">Flask</li>
                                             <li className="list-group-item">JQuery</li>
+                                            <li className="list-group-item">Yii2</li>
                                             <li className="list-group-item">Bootstrap</li>
                                             <li className="list-group-item">Vue</li>
                                         </ul>
@@ -322,6 +323,7 @@ export default function Content() {
                                             <li className="list-group-item">MySQL</li>
                                             <li className="list-group-item">MariaDB</li>
                                             <li className="list-group-item">MongoDB</li>
+                                            <li className="list-group-item">Redis</li>
                                         </ul>
                                     </div>
                                     <div className="item">
