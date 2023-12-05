@@ -186,7 +186,7 @@ export default function Content() {
                     <div className="section-inner shadow-sm rounded">
                         <h2 className="heading">About Me</h2>
                         <div className="content">
-                            <p>Hello, my name is Junianto Ichwan Dwi Wicaksono. I am a self taught developer. I always love learn something new. Love coding and watching anime. I already work as a Fullstack developer for { myExperience } years</p>
+                            <p>Hello, my name is Junianto Ichwan Dwi Wicaksono. I am a self taught developer. I always love learn something new. Love coding and watching anime. I already work as a Fullstack Developer for { myExperience } years</p>
                         </div>
                     </div>
                 </section>
