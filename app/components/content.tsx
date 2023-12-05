@@ -258,11 +258,11 @@ export default function Content() {
                         <h2 className="heading">Work Experience</h2>
                         <div className="content">
                             <div className="item">
-                                <h3 className="title">IT Programmer - <span className="place">PT. Kinarya Alihdaya Mandiri</span> <span className="year">(Apr 2022 - Now)</span></h3>
+                                <h3 className="title">IT Programmer - <span className="place"><a href="https://ptkam.co.id/id/">PT. Kinarya Alihdaya Mandiri</a></span> <span className="year">(Apr 2022 - Now)</span></h3>
                                 <p>At PT. Kinarya Alihdaya Mandiri i work as an outsource programmer for PT. Telekomunikasi Seluler (Telkomsel). My task here is to develop new app such as web app named Nagita and maintenance existing app</p>
                             </div>
                             <div className="item">
-                                <h3 className="title">Web Developer - <span className="place">PT. Virtual Medis Internasional</span> <span className="year">(Oct 2020 - Apr 2022)</span></h3>
+                                <h3 className="title">Web Developer - <span className="place"><a href="https://vmedis.com">PT. Virtual Medis Internasional</a></span> <span className="year">(Oct 2020 - Apr 2022)</span></h3>
                                 <p>At PT. Virtual Medis Internasional i work as a web developer. My task here is to develop new feature on the existing web app and as well maintenance the web app</p>
                             </div>
                             <div className="item">
