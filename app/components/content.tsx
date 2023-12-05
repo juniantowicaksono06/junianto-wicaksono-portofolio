@@ -31,7 +31,7 @@ export default function Content() {
                 projectDescription: "Vmedis is a Clinical Pharmacy web app Software to help manage drug stock and finances of pharmacies and clinicks",
                 projectWhatToDo: <>
                     <p>At Vmedis i am working as a web developer to develop new feature and fixing bug on the existing Vmedis web app</p>
-                    <p>For the demo of the vmedis web app you can click <a href="https://demo.vmedis.com">this link</a></p>
+                    <p>For the demo of the vmedis web app you can click <a href="https://demo.vmedis.com" target='_blank'>this link</a></p>
                     <p>User Demo</p>
                     <p>Username: dika98</p>
                     <p>Password: Abcd1234</p>
@@ -40,7 +40,7 @@ export default function Content() {
                     "images/vmedis/vmedis-login.png",
                     "images/vmedis/vmedis-obat.png",
                     "images/vmedis/vmedis-dokter.png",
-                    "images/vmedis/vmedis-dashboard.jpg",
+                    "images/vmedis/vmedis-dashboard.png",
                 ]
             }))
         }
