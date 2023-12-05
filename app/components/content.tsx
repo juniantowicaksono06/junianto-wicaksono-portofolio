@@ -284,7 +284,7 @@ export default function Content() {
                         <div className="content">
                             <ul className="list-unstyled">
                                 <li><i className="fas fa-map-marker-alt"></i><span className="sr-only">Location:</span>Surabaya, Indonesia</li>
-                                <li><i className="fas fa-envelope"></i><span className="sr-only">Email:</span><a href="#">juniantowicaksono22@gmail.com</a></li>
+                                <li><i className="fas fa-envelope"></i><span className="sr-only">Email:</span><a href="mailto:juniantowicaksono22@gmail.com">juniantowicaksono22@gmail.com</a></li>
                             </ul>
                         </div>
                     </div>             
