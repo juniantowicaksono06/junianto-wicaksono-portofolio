@@ -314,6 +314,7 @@ export default function Content() {
                                             <li className="list-group-item">Yii2</li>
                                             <li className="list-group-item">Bootstrap</li>
                                             <li className="list-group-item">Vue</li>
+                                            <li className="list-group-item">Socket.IO</li>
                                         </ul>
                                     </div>
                                     <div className="item">
