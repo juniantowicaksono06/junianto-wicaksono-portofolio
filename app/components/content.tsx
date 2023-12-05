@@ -17,7 +17,7 @@ export default function Content() {
     const handleProjectDetail = (id) => {
         if(id == "" || id == undefined || id == null) return
         var techStacks
-        if(id == 0) {
+        if(id == -1) {
             techStacks = (
                 <>
                     <p>Frontend: JQuery & JavaScript</p>
@@ -196,7 +196,7 @@ export default function Content() {
                                     <p>Vmedis is a Clinical Pharmacy web app software to help manage drug stock and finances of pharmacies and clinics</p>
                                 </div>
                                 <div>
-                                    <button className="btn btn-success" onClick={() => handleProjectDetail(0)}>
+                                    <button className="btn btn-success" onClick={() => handleProjectDetail(-1)}>
                                         <span><i className="fa fa-info"></i></span> Click for details
                                     </button>
                                 </div>
