@@ -270,7 +270,7 @@ export default function Content() {
                                 <p>At PT. Angkasa Aviasi Servis i work as an admin staff. My task is to manage the office required asset</p>
                             </div>
                             <div className="item">
-                                <h3 className="title">Service Area Engineer - <span className="place">PT. Visionet Data Internasional</span> <span className="year">(Mar 2019 - May 2019)</span></h3>
+                                <h3 className="title">Service Area Engineer - <span className="place"><a href="https://www.visionet.co.id/id/beranda/" target="_blank">PT. Visionet Data Internasional</a></span> <span className="year">(Mar 2019 - May 2019)</span></h3>
                                 <p>At PT. Visionet Data Internasional i work as an engineer to monitoring BRI (Bank Rakyat Indonesia) IT Asset.</p>
                             </div>
                         </div>
