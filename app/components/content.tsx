@@ -324,6 +324,7 @@ export default function Content() {
                                             <li className="list-group-item">MariaDB</li>
                                             <li className="list-group-item">MongoDB</li>
                                             <li className="list-group-item">Redis</li>
+                                            <li className="list-group-item">PostgreSQL</li>
                                         </ul>
                                     </div>
                                     <div className="item">
