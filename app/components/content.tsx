@@ -17,6 +17,13 @@ export default function Content() {
     const handleProjectDetail = (id) => {
         if(id == "" || id == undefined || id == null) return
         var techStacks
+        setProjectModal({
+            "projectTitle": "",
+            "projectDescription": "",
+            "projectTechStack": null,
+            "projectWhatToDo": <></>,
+            "projectImages": []
+        })
         if(id == -1) {
             techStacks = (
                 <>
