@@ -300,8 +300,7 @@ export default function Content() {
                                         <ul className="list-group list-group-flush">
                                             <li className="list-group-item">Python</li>
                                             <li className="list-group-item">JavaScript</li>
-                                            <li className="list-group-item">CSS</li>
-                                            <li className="list-group-item">HTML5</li>
+                                            <li className="list-group-item">PHP</li>
                                         </ul>
                                     </div>
                                     <div className="item">
