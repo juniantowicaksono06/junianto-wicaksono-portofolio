@@ -3,17 +3,48 @@ import { useEffect, useState } from 'react'
 import { Modal } from 'react-bootstrap'
 
 export default function Content() {
+    const startWorking = 2020
+    const currentDate = new Date()
+    const [myExperience, setMyExperience] = useState(currentDate.getFullYear() - startWorking)
     const [projectModal, setProjectModal] = useState({
         "projectTitle": "",
         "projectDescription": "",
         "projectTechStack": null,
+        "projectWhatToDo": <></>,
         "projectImages": []
     })
     const [isModalShown, setIsModalShown] = useState(false)
     const handleProjectDetail = (id) => {
         if(id == "" || id == undefined || id == null) return
         var techStacks
-        if(id == 1) {
+        if(id == 0) {
+            techStacks = (
+                <>
+                    <p>Frontend: JQuery & JavaScript</p>
+                    <p>Backend: Yii2 / PHP</p>
+                    <p>Database: MySQL & PostgreSQL</p>
+                </>
+            )
+            setProjectModal(prevState => ({
+                ...prevState,
+                projectTitle: "Vmedis",
+                projectDescription: "Vmedis is a Clinical Pharmacy web app Software to help manage drug stock and finances of pharmacies and clinicks",
+                projectWhatToDo: <>
+                    <p>At Vmedis i am working as a web developer to develop new feature and fixing bug on the existing Vmedis web app</p>
+                    <p>For the demo of the vmedis web app you can click <a href="https://demo.vmedis.com">this link</a></p>
+                    <p>User Demo</p>
+                    <p>Username: dika98</p>
+                    <p>Password: Abcd1234</p>
+                </>,
+                projectImages: [
+                    "images/vmedis/vmedis-login.png",
+                    "images/vmedis/vmedis-obat.png",
+                    "images/vmedis/vmedis-dokter.png",
+                    "images/vmedis/vmedis-dashboard.jpg",
+                ]
+            }))
+        }
+        else if(id == 1) {
             techStacks = (
                 <>
                     <p>Frontend: NuxtJS 2</p>
@@ -85,6 +116,7 @@ export default function Content() {
             "projectTitle": "",
             "projectDescription": "",
             "projectTechStack": null,
+            "projectWhatToDo": <></>,
             "projectImages": []
         })
     }
@@ -131,6 +163,9 @@ export default function Content() {
                                 <div id="ProjectTechStack" className="mt-3">
                                     {projectModal['projectTechStack']}
                                 </div>
+                                <div id="projectWhatToDo" className="mt-3">
+                                    {projectModal['projectWhatToDo']}
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -144,7 +179,7 @@ export default function Content() {
                     <div className="section-inner shadow-sm rounded">
                         <h2 className="heading">About Me</h2>
                         <div className="content">
-                            <p>Hello, my name is Junianto Ichwan Dwi Wicaksono. I am a self taught developer. I always love learn something new. Love coding and watching anime</p>
+                            <p>Hello, my name is Junianto Ichwan Dwi Wicaksono. I am a self taught developer. I always love learn something new. Love coding and watching anime. I already work as a Fullstack developer for { myExperience } years</p>
                         </div>
                     </div>
                 </section>
@@ -152,6 +187,20 @@ export default function Content() {
                     <div className="section-inner shadow-sm rounded">
                         <h2 className="heading">Projects</h2>
                         <div className="content">
+                            <div className="item featured">
+                                <div className="featured-image has-ribbon">
+                                    <img src="images/vmedis/vmedis-dashboard.png" alt="Vmedis Screenshot" className="img-fluid project-image rounded shadow-sm" />
+                                </div>
+                                <h2 className="title mb-3">Vmedis</h2>
+                                <div className="desc text-start">                                    
+                                    <p>Vmedis is a Clinical Pharmacy web app software to help manage drug stock and finances of pharmacies and clinics</p>
+                                </div>
+                                <div>
+                                    <button className="btn btn-success" onClick={() => handleProjectDetail(0)}>
+                                        <span><i className="fa fa-info"></i></span> Click for details
+                                    </button>
+                                </div>
+                            </div>
                             <div className="item featured">
                                 <div className="featured-image has-ribbon">
                                     <img src="images/nagita/nagita-board.png" alt="Nagita Screenshot" className="img-fluid project-image rounded shadow-sm" />
@@ -202,20 +251,20 @@ export default function Content() {
                         <h2 className="heading">Work Experience</h2>
                         <div className="content">
                             <div className="item">
-                                <h3 className="title">Service Area Engineer - <span className="place"><a href="#">PT. Visionet Data Internasional</a></span> <span className="year">(Mar 2019 - May 2019)</span></h3>
-                                <p>At PT. Visionet Data Internasional i work as an engineer to monitoring BRI (Bank Rakyat Indonesia) IT Asset.</p>
-                            </div>
-                            <div className="item">
-                                <h3 className="title">Admin Staff - <span className="place"><a href="#">PT. Angkasa Aviasi Servis</a></span> <span className="year">(Oct 2019 - Oct 2020)</span></h3>
-                                <p>At PT. Angkasa Aviasi Servis i work as an admin staff. My task is to manage the office required asset</p>
+                                <h3 className="title">IT Programmer - <span className="place"><a href="#">PT. Kinarya Alihdaya Mandiri</a></span> <span className="year">(Apr 2022 - Now)</span></h3>
+                                <p>At PT. Kinarya Alihdaya Mandiri i work as an outsource programmer for PT. Telekomunikasi Seluler (Telkomsel). My task here is to develop new app such as web app named Nagita and maintenance existing app</p>
                             </div>
                             <div className="item">
                                 <h3 className="title">Web Developer - <span className="place"><a href="#">PT. Virtual Medis Internasional</a></span> <span className="year">(Oct 2020 - Apr 2022)</span></h3>
                                 <p>At PT. Virtual Medis Internasional i work as a web developer. My task here is to develop new feature on the existing web app and as well maintenance the web app</p>
                             </div>
                             <div className="item">
-                                <h3 className="title">IT Programmer - <span className="place"><a href="#">PT. Kinarya Alihdaya Mandiri</a></span> <span className="year">(Apr 2022 - Now)</span></h3>
-                                <p>At PT. Kinarya Alihdaya Mandiri i work as an outsource programmer for PT. Telekomunikasi Seluler (Telkomsel). My task here is to develop new app such as web app named Nagita and maintenance existing app</p>
+                                <h3 className="title">Admin Staff - <span className="place"><a href="#">PT. Angkasa Aviasi Servis</a></span> <span className="year">(Oct 2019 - Oct 2020)</span></h3>
+                                <p>At PT. Angkasa Aviasi Servis i work as an admin staff. My task is to manage the office required asset</p>
+                            </div>
+                            <div className="item">
+                                <h3 className="title">Service Area Engineer - <span className="place"><a href="#">PT. Visionet Data Internasional</a></span> <span className="year">(Mar 2019 - May 2019)</span></h3>
+                                <p>At PT. Visionet Data Internasional i work as an engineer to monitoring BRI (Bank Rakyat Indonesia) IT Asset.</p>
                             </div>
                         </div>
                     </div>                
