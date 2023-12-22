@@ -307,6 +307,8 @@ export default function Content() {
                                         <h3 className="level-title">Frameworks &amp; Library</h3>
                                         <ul className="list-group list-group-flush">
                                             <li className="list-group-item">NuxtJS</li>
+                                            <li className="list-group-item">ReactJS</li>
+                                            <li className="list-group-item">NextJS</li>
                                             <li className="list-group-item">Codeigniter</li>
                                             <li className="list-group-item">Laravel</li>
                                             <li className="list-group-item">Flask</li>
@@ -333,7 +335,7 @@ export default function Content() {
                                             <li className="list-group-item">Docker</li>
                                             <li className="list-group-item">Linux</li>
                                             <li className="list-group-item">Git</li>
-                                            <li className="list-group-item">Jenkins (Novice)</li>
+                                            <li className="list-group-item">Jenkins</li>
                                         </ul>
                                     </div>
                                 </div>              
