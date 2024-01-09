@@ -37,7 +37,7 @@ export default function Content() {
                 projectTitle: "Vmedis",
                 projectDescription: "Vmedis is a Clinical Pharmacy web app Software to help manage drug stock and finances of pharmacies and clinicks",
                 projectWhatToDo: <>
-                    <p>At Vmedis i am working as a web developer to develop new feature and fixing bug on the existing Vmedis web app</p>
+                    <p>At Vmedis i worked as a web developer to develop new feature and fixing bug on the existing Vmedis web app</p>
                     <p>For the demo of the vmedis web app you can click <a href="https://demo.vmedis.com" target='_blank'>this link</a></p>
                     <p>User Demo</p>
                     <p>Username: dika98</p>
@@ -186,7 +186,7 @@ export default function Content() {
                     <div className="section-inner shadow-sm rounded">
                         <h2 className="heading">About Me</h2>
                         <div className="content">
-                            <p>Hello, my name is Junianto Ichwan Dwi Wicaksono. I am a self taught developer. I always love learn something new. Love coding and watching anime. I already work as a Fullstack Developer for { myExperience } years</p>
+                            <p>Hello, my name is Junianto Ichwan Dwi Wicaksono. I am a self taught developer. I always love learn something new. Love coding and watching anime. I have worked as a Fullstack Developer for about { myExperience } years</p>
                         </div>
                     </div>
                 </section>
@@ -214,7 +214,7 @@ export default function Content() {
                                 </div>
                                 <h2 className="title mb-3">Nagita</h2>
                                 <div className="desc text-start">                                    
-                                    <p>Nagita is a project management application develop to track project progress in PT. Telkomsel IT Jatim Balnus Division</p>
+                                    <p>Nagita is a project management application develop to track project progress at PT. Telkomsel IT Jatim Balnus Division</p>
                                 </div>
                                 <div>
                                     <button className="btn btn-success" onClick={() => handleProjectDetail(1)}>
@@ -242,7 +242,7 @@ export default function Content() {
                                 </div>
                                 <h2 className="title mb-3">Telegram Bot Hamengkubuwono</h2>
                                 <div className="desc text-start">                                    
-                                    <p>Hamengkubowono is a telegram bot used to report an incident in PT. Telkomsel Grapari or Gerai IT Jatim Balnus</p>
+                                    <p>Hamengkubowono is a telegram bot used to report an incident at PT. Telkomsel Grapari or Gerai IT Jatim Balnus</p>
                                 </div>
                                 <div>
                                     <button className="btn btn-success" onClick={() => handleProjectDetail(3)}>
@@ -258,16 +258,16 @@ export default function Content() {
                         <h2 className="heading">Work Experience</h2>
                         <div className="content">
                             <div className="item">
-                                <h3 className="title">IT Programmer - <span className="place"><a href="https://ptkam.co.id/id/" target='_blank'>PT. Kinarya Alihdaya Mandiri</a></span> <span className="year">(Apr 2022 - Now)</span></h3>
-                                <p>At PT. Kinarya Alihdaya Mandiri i work as an outsource programmer for PT. Telekomunikasi Seluler (Telkomsel). My task here is to develop new app such as web app named Nagita and maintenance existing app</p>
+                                <h3 className="title">IT Programmer - <span className="place"><a href="https://ptkam.co.id/id/" target='_blank'>PT. Kinarya Alihdaya Mandiri</a></span> <span className="year">(Apr 2022 - Dec 2023)</span></h3>
+                                <p>At PT. Kinarya Alihdaya Mandiri i worked as an outsource programmer for PT. Telekomunikasi Seluler (Telkomsel). My task here is to develop new app such as web app named Nagita and maintenance existing app</p>
                             </div>
                             <div className="item">
                                 <h3 className="title">Web Developer - <span className="place"><a href="https://vmedis.com" target='_blank'>PT. Virtual Medis Internasional</a></span> <span className="year">(Oct 2020 - Apr 2022)</span></h3>
-                                <p>At PT. Virtual Medis Internasional i work as a web developer. My task here is to develop new feature on the existing web app and as well maintenance the web app</p>
+                                <p>At PT. Virtual Medis Internasional i worked as a web developer. My task here is to develop new feature on the existing web app and as well maintenance the web app</p>
                             </div>
                             <div className="item">
                                 <h3 className="title">Admin Staff - <span className="place">PT. Angkasa Aviasi Servis</span> <span className="year">(Oct 2019 - Oct 2020)</span></h3>
-                                <p>At PT. Angkasa Aviasi Servis i work as an admin staff. My task is to manage the office required asset</p>
+                                <p>At PT. Angkasa Aviasi Servis i worked as an admin staff. My task is to manage the office required asset</p>
                             </div>
                             <div className="item">
                                 <h3 className="title">Service Area Engineer - <span className="place"><a href="https://www.visionet.co.id/id/beranda/" target="_blank">PT. Visionet Data Internasional</a></span> <span className="year">(Mar 2019 - May 2019)</span></h3>
