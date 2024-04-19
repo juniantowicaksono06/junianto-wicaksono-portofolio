@@ -108,6 +108,34 @@ export default function Content() {
                 ]
             }))
         }
+        else if(id == 4) {
+            techStacks = (
+                <>
+                    <p>Frontend: Laravel Livewire</p>
+                    <p>Backend: Laravel versi 8.83.27</p>
+                    <p>Database: MySQL</p>
+                </>
+            )
+            setProjectModal(prevState => ({
+                ...prevState,
+                projectTitle: "BTN Smart Residence X Montiro",
+                projectDescription: "Montiro is a service for ordering mechanic or tow truck services on the BTN Smart Residence application",
+                projectImages: [
+                    "images/montiro/1.png",
+                    "images/montiro/2.png",
+                    "images/montiro/3.png",
+                    "images/montiro/4.png",
+                    "images/montiro/5.png",
+                    "images/montiro/6.png",
+                    "images/montiro/7.png",
+                    "images/montiro/8.png",
+                    "images/montiro/9.png",
+                    "images/montiro/10.png",
+                    "images/montiro/11.png",
+                    "images/montiro/12.png",
+                ]
+            }))
+        }
         setProjectModal(prevState => ({
             ...prevState, 
             projectTechStack: techStacks
@@ -250,6 +278,21 @@ export default function Content() {
                                     </button>
                                 </div>
                             </div>
+                            
+                            <div className="item featured">
+                                <div className="featured-image has-ribbon">
+                                    <img src="images/montiro/1.png" alt="Montiro Screenshot" className="img-fluid project-image rounded shadow-sm" />
+                                </div>
+                                <h2 className="title mb-3">BTN Smart Residence X Montiro Webview</h2>
+                                <div className="desc text-start">                                    
+                                    <p>Montiro is a service for ordering mechanic or tow truck services on the BTN Smart Residence application</p>
+                                </div>
+                                <div>
+                                    <button className="btn btn-success" onClick={() => handleProjectDetail(4)}>
+                                        <span><i className="fa fa-info"></i></span> Click for details
+                                    </button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -258,20 +301,24 @@ export default function Content() {
                         <h2 className="heading">Work Experience</h2>
                         <div className="content">
                             <div className="item">
+                                <h3 className="title">Freelance Developer - <span className="place"><a href="https://ptkam.co.id/id/" target='_blank'>PT. Vascomm Solusi Teknologi</a></span> <span className="year">(Feb 2024 - Apr 2024)</span></h3>
+                                <p>At PT. Vascomm Solusi Teknologi I worked as a freelance developer to develop new feature on the existing application for PT. Bank Tabungan Negara Tbk.</p>
+                            </div>
+                            <div className="item">
                                 <h3 className="title">IT Programmer - <span className="place"><a href="https://ptkam.co.id/id/" target='_blank'>PT. Kinarya Alihdaya Mandiri</a></span> <span className="year">(Apr 2022 - Dec 2023)</span></h3>
-                                <p>At PT. Kinarya Alihdaya Mandiri i worked as an outsource programmer for PT. Telekomunikasi Seluler (Telkomsel). My task here is to develop new app such as web app named Nagita and maintenance existing app</p>
+                                <p>At PT. Kinarya Alihdaya Mandiri I worked as an outsource programmer for PT. Telekomunikasi Seluler (Telkomsel). My task here is to develop new app such as web app named Nagita and maintenance existing app</p>
                             </div>
                             <div className="item">
                                 <h3 className="title">Web Developer - <span className="place"><a href="https://vmedis.com" target='_blank'>PT. Virtual Medis Internasional</a></span> <span className="year">(Oct 2020 - Apr 2022)</span></h3>
-                                <p>At PT. Virtual Medis Internasional i worked as a web developer. My task here is to develop new feature on the existing web app and as well maintenance the web app</p>
+                                <p>At PT. Virtual Medis Internasional I worked as a web developer. My task here is to develop new feature on the existing web app and as well maintenance the web app</p>
                             </div>
                             <div className="item">
                                 <h3 className="title">Admin Staff - <span className="place">PT. Angkasa Aviasi Servis</span> <span className="year">(Oct 2019 - Oct 2020)</span></h3>
-                                <p>At PT. Angkasa Aviasi Servis i worked as an admin staff. My task is to manage the office required asset</p>
+                                <p>At PT. Angkasa Aviasi Servis I worked as an admin staff. My task is to manage the office required asset</p>
                             </div>
                             <div className="item">
                                 <h3 className="title">Service Area Engineer - <span className="place"><a href="https://www.visionet.co.id/id/beranda/" target="_blank">PT. Visionet Data Internasional</a></span> <span className="year">(Mar 2019 - May 2019)</span></h3>
-                                <p>At PT. Visionet Data Internasional i work as an engineer to monitoring BRI (Bank Rakyat Indonesia) IT Asset.</p>
+                                <p>At PT. Visionet Data Internasional I worked as an engineer to monitoring BRI (Bank Rakyat Indonesia) IT Asset.</p>
                             </div>
                         </div>
                     </div>                
