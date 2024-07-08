@@ -1,6 +1,7 @@
 "use client"
 import { useEffect, useState } from 'react'
 import { Modal } from 'react-bootstrap'
+import Link from 'next/link';
 
 export default function Content() {
     const startWorking = 2020
@@ -11,7 +12,8 @@ export default function Content() {
         "projectDescription": "",
         "projectTechStack": null,
         "projectWhatToDo": <></>,
-        "projectImages": []
+        "projectImages": [],
+        "projectVideos": []
     })
     const [isModalShown, setIsModalShown] = useState(false)
     const handleProjectDetail = (id) => {
@@ -22,14 +24,24 @@ export default function Content() {
             "projectDescription": "",
             "projectTechStack": null,
             "projectWhatToDo": <></>,
-            "projectImages": []
+            "projectImages": [],
+            "projectVideos": []
         })
         if(id == -1) {
             techStacks = (
                 <>
-                    <p>Frontend: JQuery & JavaScript</p>
-                    <p>Backend: Yii2 / PHP</p>
-                    <p>Database: MySQL & PostgreSQL</p>
+                    <h5>Frontend</h5>
+                    <ul>
+                        <li>JQuery & JavaScript</li>
+                    </ul>
+                    <h5>Backend</h5>
+                    <ul>
+                        <li>Yii2 / PHP</li>
+                    </ul>
+                    <h5>Database</h5>
+                    <ul>
+                        <li>MySQL & PostgreSQL</li>
+                    </ul>
                 </>
             )
             setProjectModal(prevState => ({
@@ -48,15 +60,25 @@ export default function Content() {
                     "images/vmedis/vmedis-obat.png",
                     "images/vmedis/vmedis-dokter.png",
                     "images/vmedis/vmedis-dashboard.png",
-                ]
+                ],
+                projectVideos: []
             }))
         }
         else if(id == 1) {
             techStacks = (
                 <>
-                    <p>Frontend: NuxtJS 2</p>
-                    <p>Backend: Express</p>
-                    <p>Database: MongoDB</p>
+                    <h5>Frontend</h5>
+                    <ul>
+                        <li>NuxtJS 2</li>
+                    </ul>
+                    <h5>Backend</h5>
+                    <ul>
+                        <li>Express</li>
+                    </ul>
+                    <h5>Database</h5>
+                    <ul>
+                        <li>MongoDB</li>
+                    </ul>
                 </>
             )
             setProjectModal(prevState => ({
@@ -68,15 +90,25 @@ export default function Content() {
                     "images/nagita/nagita-board.png",
                     "images/nagita/nagita-card.png",
                     "images/nagita/nagita-ganttchart.jpg",
-                ]
+                ],
+                projectVideos: []
             }))
         }
         else if(id == 2) {
             techStacks = (
                 <>
-                    <p>Frontend: Vue 3</p>
-                    <p>Backend: Laravel</p>
-                    <p>Database: MySQL</p>
+                    <h5>Frontend</h5>
+                    <ul>
+                        <li>Vue 3</li>
+                    </ul>
+                    <h5>Backend</h5>
+                    <ul>
+                        <li>Laravel</li>
+                    </ul>
+                    <h5>Database</h5>
+                    <ul>
+                        <li>MySQL</li>
+                    </ul>
                 </>
             )
             setProjectModal(prevState => ({
@@ -86,14 +118,21 @@ export default function Content() {
                 projectImages: [
                     "images/gracita/gracita-login.png",
                     "images/gracita/gracita-checklist.png",
-                ]
+                ],
+                projectVideos: []
             }))
         }
         else if(id == 3) {
             techStacks = (
                 <>
-                    <p>Backend: Python Telegram Bot</p>
-                    <p>Database: MySQL</p>
+                    <h5>Backend</h5>
+                    <ul>
+                        <li>Python Telegram Bot</li>
+                    </ul>
+                    <h5>Database</h5>
+                    <ul>
+                        <li>MySQL</li>
+                    </ul>
                 </>
             )
             setProjectModal(prevState => ({
@@ -105,15 +144,25 @@ export default function Content() {
                     "images/hamengkubuwono/hamengkubuwono-incident.png",
                     "images/hamengkubuwono/hamengkubuwono-area.png",
                     "images/hamengkubuwono/hamengkubuwono-grapari.png",
-                ]
+                ],
+                projectVideos: []
             }))
         }
         else if(id == 4) {
             techStacks = (
                 <>
-                    <p>Frontend: Laravel Livewire</p>
-                    <p>Backend: Laravel versi 8.83.27</p>
-                    <p>Database: MySQL</p>
+                    <h5>Frontend</h5>
+                    <ul>
+                        <li>Laravel Livewire</li>
+                    </ul>
+                    <h5>Backend</h5>
+                    <ul>
+                        <li>Laravel Versi 8.83.27</li>
+                    </ul>
+                    <h5>Database</h5>
+                    <ul>
+                        <li>MySQL</li>
+                    </ul>
                 </>
             )
             setProjectModal(prevState => ({
@@ -133,6 +182,38 @@ export default function Content() {
                     "images/montiro/10.png",
                     "images/montiro/11.png",
                     "images/montiro/12.png",
+                ],
+                projectVideos: []
+            }))
+        }
+        else if(id == 100) {
+            techStacks = (
+                <>
+                    <h5>Programming Language</h5>
+                    <ul>
+                        <li>Python 3.10.2</li>
+                    </ul>
+                    <h5>Large Language Model</h5>
+                    <ul>
+                        <li>Vicuna 13B GGUF</li>
+                    </ul>
+                    <h5>Database</h5>
+                    <ul>
+                        <li>ChromaDB</li>
+                    </ul>
+                    <p>You can access the source from <Link href="https://colab.research.google.com/drive/196wbsxYIt3ghrLZo11APukyD_YyT6yyn?usp=sharing" target='_blank'>here</Link></p>
+                </>
+            )
+            setProjectModal(prevState => ({
+                ...prevState,
+                projectTitle: "Generative Bot using Vicuna 13B Model",
+                projectDescription: "This is a hobby project for me to lern how to run Vicuna 13B with python langchain library. In this project I learned how to run Vicuna 13B with python langchain library. I also learned how to use chromadb to store and query large language model.",
+                projectImages: [
+                    "images/gen-bot/ss_gen_bot1.png",
+                    "images/gen-bot/ss_gen_bot2.png",
+                ],
+                projectVideos: [
+                    "videos/gen-bot/vid_gen_bot1.mp4",
                 ]
             }))
         }
@@ -152,7 +233,8 @@ export default function Content() {
             "projectDescription": "",
             "projectTechStack": null,
             "projectWhatToDo": <></>,
-            "projectImages": []
+            "projectImages": [],
+            "projectVideos": []
         })
     }
     return <div className="container sections-wrapper py-5">
@@ -177,6 +259,17 @@ export default function Content() {
                                                 return (
                                                     <div className={`carousel-item ${activeClass}`} key={index}>
                                                         <img src={imageName} alt="Slide" className="d-block w-100" />
+                                                    </div>
+                                                )
+                                            })
+                                        }
+                                        {
+                                            projectModal['projectVideos'].map((videoName, index) => {
+                                                return (
+                                                    <div className={`carousel-item`} key={index}>
+                                                        <video className="d-block w-100" controls>
+                                                            <source src={videoName} type="video/mp4" />
+                                                        </video>
                                                     </div>
                                                 )
                                             })
@@ -277,8 +370,7 @@ export default function Content() {
                                         <span><i className="fa fa-info"></i></span> Click for details
                                     </button>
                                 </div>
-                            </div>
-                            
+                            </div>     
                             <div className="item featured">
                                 <div className="featured-image has-ribbon">
                                     <img src="images/montiro/1.png" alt="Montiro Screenshot" className="img-fluid project-image rounded shadow-sm" />
@@ -289,6 +381,23 @@ export default function Content() {
                                 </div>
                                 <div>
                                     <button className="btn btn-success" onClick={() => handleProjectDetail(4)}>
+                                        <span><i className="fa fa-info"></i></span> Click for details
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 className="heading">Side Projects</h2>
+                        <div className="content">
+                            <div className="item featured">
+                                <div className="featured-image has-ribbon">
+                                    <img src="images/gen-bot/ss_gen_bot1.png" alt="Generative Bot Screenshot" className="img-fluid project-image rounded shadow-sm" />
+                                </div>
+                                <h2 className="title mb-3">Generative Bot using Vicuna 13B Model</h2>
+                                <div className="desc text-start">                                    
+                                    <p>This is a hobby project for me to lern how to run Vicuna 13B with python langchain library</p>
+                                </div>
+                                <div>
+                                    <button className="btn btn-success" onClick={() => handleProjectDetail(100)}>
                                         <span><i className="fa fa-info"></i></span> Click for details
                                     </button>
                                 </div>
@@ -306,7 +415,14 @@ export default function Content() {
                             </div>
                             <div className="item">
                                 <h3 className="title">IT Programmer - <span className="place"><a href="https://ptkam.co.id/id/" target='_blank'>PT. Kinarya Alihdaya Mandiri</a></span> <span className="year">(Apr 2022 - Dec 2023)</span></h3>
-                                <p>At PT. Kinarya Alihdaya Mandiri I worked as an outsource programmer for PT. Telekomunikasi Seluler (Telkomsel). My task here is to develop new app such as web app named Nagita and maintenance existing app</p>
+                                <p>At PT. Kinarya Alihdaya Mandiri I worked as an outsource programmer for PT. Telekomunikasi Seluler (Telkomsel). My task here is to develop new app such as web app named Nagita and maintenance existing app such as:</p>
+                                <ul>
+                                    <li>Advanced Web Programmer: Designing and implementing robust web solutions tailored to meet diverse client needs, leveraging expertise in front-end and back-end development to ensure optimal user experiences and functionality.</li>
+                                    <li>Aspiring Android Developer: Gaining proficiency in Android app development through hands-on projects and learning initiatives, with a focus on creating intuitive mobile applications that integrate seamlessly with various platforms.</li>
+                                    <li>ETL Specialist: Spearheading the development and maintenance of Extract, Transform, Load (ETL) processes utilizing advanced tools like Pandas for data manipulation, Selenium for web scraping, BeautifulSoup for parsing, and Matplotlib for data visualization, ensuring efficient data workflows and analytics capabilities.</li>
+                                    <li>Python Developer: Innovating with Python to build and enhance Telegram bots that automate tasks, provide real-time information, and enhance user engagement through intuitive bot functionalities and integrations with external APIs.</li>
+                                    <li>Robotic Project Engineer: Leading a Raspberry Pi 4 Model B-based robotic project, applying technical expertise in hardware interfacing, sensor integration, and software development to create autonomous systems that solve practical challenges in automation and robotics.</li>
+                                </ul>
                             </div>
                             <div className="item">
                                 <h3 className="title">Web Developer - <span className="place"><a href="https://vmedis.com" target='_blank'>PT. Virtual Medis Internasional</a></span> <span className="year">(Oct 2020 - Apr 2022)</span></h3>
