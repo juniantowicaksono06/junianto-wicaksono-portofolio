@@ -50,7 +50,7 @@ export default function Content() {
                 projectDescription: "Vmedis is a Clinical Pharmacy web app Software to help manage drug stock and finances of pharmacies and clinicks",
                 projectWhatToDo: <>
                     <p>At Vmedis i worked as a web developer to develop new feature and fixing bug on the existing Vmedis web app</p>
-                    <p>For the demo of the vmedis web app you can click <a href="https://demo.vmedis.com" target='_blank'>this link</a></p>
+                    <p>For the demo of the vmedis web app you can click <Link href="https://demo.vmedis.com" target='_blank'>this link</Link></p>
                     <p>User Demo</p>
                     <p>Username: dika98</p>
                     <p>Password: Abcd1234</p>
@@ -499,11 +499,11 @@ export default function Content() {
                         <h2 className="heading">Work Experience</h2>
                         <div className="content">
                             <div className="item">
-                                <h3 className="title">Freelance Developer - <span className="place"><a href="https://ptkam.co.id/id/" target='_blank'>PT. Vascomm Solusi Teknologi</a></span> <span className="year">(Feb 2024 - Apr 2024)</span></h3>
+                                <h3 className="title">Freelance Developer - <span className="place"><Link href="https://ptkam.co.id/id/" target='_blank'>PT. Vascomm Solusi Teknologi</Link></span> <span className="year">(Feb 2024 - Apr 2024)</span></h3>
                                 <p>At PT. Vascomm Solusi Teknologi I worked as a freelance developer to develop new feature on the existing application for PT. Bank Tabungan Negara Tbk.</p>
                             </div>
                             <div className="item">
-                                <h3 className="title">IT Programmer - <span className="place"><a href="https://ptkam.co.id/id/" target='_blank'>PT. Kinarya Alihdaya Mandiri</a></span> <span className="year">(Apr 2022 - Dec 2023)</span></h3>
+                                <h3 className="title">IT Programmer - <span className="place"><Link href="https://ptkam.co.id/id/" target='_blank'>PT. Kinarya Alihdaya Mandiri</Link></span> <span className="year">(Apr 2022 - Dec 2023)</span></h3>
                                 <p>At PT. Kinarya Alihdaya Mandiri I worked as an outsource programmer for PT. Telekomunikasi Seluler (Telkomsel). My task here is to develop new app such as web app named Nagita and maintenance existing app such as:</p>
                                 <ul>
                                     <li>Advanced Web Programmer: Designing and implementing robust web solutions tailored to meet diverse client needs, leveraging expertise in front-end and back-end development to ensure optimal user experiences and functionality.</li>
@@ -514,7 +514,7 @@ export default function Content() {
                                 </ul>
                             </div>
                             <div className="item">
-                                <h3 className="title">Web Developer - <span className="place"><a href="https://vmedis.com" target='_blank'>PT. Virtual Medis Internasional</a></span> <span className="year">(Oct 2020 - Apr 2022)</span></h3>
+                                <h3 className="title">Web Developer - <span className="place"><Link href="https://vmedis.com" target='_blank'>PT. Virtual Medis Internasional</Link></span> <span className="year">(Oct 2020 - Apr 2022)</span></h3>
                                 <p>At PT. Virtual Medis Internasional I worked as a web developer. My task here is to develop new feature on the existing web app and as well maintenance the web app</p>
                             </div>
                             <div className="item">
@@ -522,7 +522,7 @@ export default function Content() {
                                 <p>At PT. Angkasa Aviasi Servis I worked as an admin staff. My task is to manage the office required asset</p>
                             </div>
                             <div className="item">
-                                <h3 className="title">Service Area Engineer - <span className="place"><a href="https://www.visionet.co.id/id/beranda/" target="_blank">PT. Visionet Data Internasional</a></span> <span className="year">(Mar 2019 - May 2019)</span></h3>
+                                <h3 className="title">Service Area Engineer - <span className="place"><Link href="https://www.visionet.co.id/id/beranda/" target="_blank">PT. Visionet Data Internasional</Link></span> <span className="year">(Mar 2019 - May 2019)</span></h3>
                                 <p>At PT. Visionet Data Internasional I worked as an engineer to monitoring BRI (Bank Rakyat Indonesia) IT Asset.</p>
                             </div>
                         </div>
@@ -537,7 +537,7 @@ export default function Content() {
                             <ul className="list-unstyled">
                                 <li><i className="fas fa-map-marker-alt"></i><span className="sr-only">Location:</span>Surabaya, Indonesia</li>
                                 <li><i className="fas fa-phone"></i><span className="sr-only">Phone:</span>+62 813 5407 0748</li>
-                                <li><i className="fas fa-envelope"></i><span className="sr-only">Email:</span><a href="mailto:juniantowicaksono22@gmail.com">juniantowicaksono22@gmail.com</a></li>
+                                <li><i className="fas fa-envelope"></i><span className="sr-only">Email:</span><Link href="mailto:juniantowicaksono22@gmail.com">juniantowicaksono22@gmail.com</Link></li>
                             </ul>
                         </div>
                     </div>             

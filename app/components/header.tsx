@@ -1,5 +1,6 @@
 "use client"
 import { useState, useEffect } from "react"
+import Link from "next/link"
 export default function Header() {
     function initTheme() {
         let darkMode = localStorage.getItem("darkSwitch") !== null && localStorage.getItem("darkSwitch") === "dark"
@@ -38,8 +39,8 @@ export default function Header() {
                         <h1 className="name">Junianto Ichwan Dwi Wicaksono</h1>
                         <h2 className="desc">Fullstack Developer</h2>
                         <ul className="social list-inline">
-                            <li className="list-inline-item"><a href="https://github.com/juniantowicaksono06"><i className="fab fa-github"></i></a></li>
-                            <li className="list-inline-item"><a href="https://linkedin.com/in/junianto-wicaksono-1655a415b"><i className="fab fa-linkedin"></i></a></li>
+                            <li className="list-inline-item"><Link href="https://github.com/juniantowicaksono06" target="_blank"><i className="fab fa-github"></i></Link></li>
+                            <li className="list-inline-item"><Link href="https://linkedin.com/in/junianto-wicaksono-1655a415b" target="_blank"><i className="fab fa-linkedin"></i></Link></li>
                         </ul>
                     </div>
                 </div>
@@ -51,10 +52,10 @@ export default function Header() {
 						</div>
 			        </div>
                     <div className="mb-1">
-	                    <a className="btn btn-primary" href="https://t.me/juniantowicaksono06" target="_blank"><i className="fab fa-telegram"></i> Telegram</a>        
+	                    <Link className="btn btn-primary" href="https://t.me/juniantowicaksono06" target="_blank"><i className="fab fa-telegram"></i> Telegram</Link>        
                     </div>
                     <div>
-	                    <a className="btn btn-success" href="https://wa.me/6281354070748" target="_blank" style={{marginTop: '0'}}><i className="fab fa-whatsapp"></i> WhatsApp</a>        
+	                    <Link className="btn btn-success" href="https://wa.me/6281354070748" target="_blank" style={{marginTop: '0'}}><i className="fab fa-whatsapp"></i> WhatsApp</Link>        
                     </div>
 	            </div>
             </div>
