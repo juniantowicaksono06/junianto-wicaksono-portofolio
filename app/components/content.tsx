@@ -186,6 +186,35 @@ export default function Content() {
                 projectVideos: []
             }))
         }
+        else if(id == 5) {
+            techStacks = (
+                <>
+                    <h5>Frontend</h5>
+                    <ul>
+                        <li>NuxtJS 2</li>
+                    </ul>
+                    <h5>Backend</h5>
+                    <ul>
+                        <li>CodeIgniter 4</li>
+                    </ul>
+                    <h5>Database</h5>
+                    <ul>
+                        <li>MySQL</li>
+                    </ul>
+                </>
+            )
+            setProjectModal(prevState => ({
+                ...prevState,
+                projectTitle: "BTN Smart Residence X Montiro",
+                projectDescription: "Mojopait is a HRIS web application developed for PT. Telkomsel IT Jatim Balnus Division to track project progress, attendance, overtime, and employee performance",
+                projectImages: [
+                    "images/mojopait/1.jpg",
+                    "images/mojopait/2.jpg",
+                    "images/mojopait/3.jpg",
+                ],
+                projectVideos: []
+            }))
+        }
         else if(id == 100) {
             techStacks = (
                 <>
@@ -215,6 +244,38 @@ export default function Content() {
                 projectVideos: [
                     "videos/gen-bot/vid_gen_bot1.mp4",
                 ]
+            }))
+        }
+        else if(id == 101) {
+            techStacks = (
+                <>
+                    <h5>Frontend</h5>
+                    <ul>
+                        <li>Next.js + React</li>
+                    </ul>
+                    <h5>Backend</h5>
+                    <ul>
+                        <li>Next.js 14</li>
+                    </ul>
+                    <h5>Database</h5>
+                    <ul>
+                        <li>MongoDB Atlas</li>
+                    </ul>
+                    <p>You can access the site from <Link href="https://my-password-theta.vercel.app/" target="_blank">here</Link></p>
+                    <p>You can access the source from <Link href="https://github.com/juniantowicaksono06/my-password" target='_blank'>here</Link></p>
+                </>
+            )
+            setProjectModal(prevState => ({
+                ...prevState,
+                projectTitle: "My Password",
+                projectDescription: "This is a hobby project for me to lern how to run Next.js with React. In this project I learned how to run Next.js with React. I also learned more how to use MongoDB Atlas with Next.js to store and query database.",
+                projectImages: [
+                    "images/my-password/1.png",
+                    "images/my-password/2.png",
+                    "images/my-password/3.png",
+                    "images/my-password/4.png",
+                ],
+                projectVideos: []
             }))
         }
         setProjectModal(prevState => ({
@@ -320,11 +381,25 @@ export default function Content() {
                                     <img src="images/vmedis/vmedis-dashboard.png" alt="Vmedis Screenshot" className="img-fluid project-image rounded shadow-sm" />
                                 </div>
                                 <h2 className="title mb-3">Vmedis</h2>
-                                <div className="desc text-start">                                    
+                                {/* <div className="desc text-start">                                    
                                     <p>Vmedis is a Clinical Pharmacy web app software to help manage drug stock and finances of pharmacies and clinics</p>
-                                </div>
+                                </div> */}
                                 <div>
                                     <button className="btn btn-success" onClick={() => handleProjectDetail(-1)}>
+                                        <span><i className="fa fa-info"></i></span> Click for details
+                                    </button>
+                                </div>
+                            </div>
+                            <div className="item featured">
+                                <div className="featured-image has-ribbon">
+                                    <img src="images/mojopait/1.jpg" alt="Mojopait Screenshot" className="img-fluid project-image rounded shadow-sm" />
+                                </div>
+                                <h2 className="title mb-3">Mojopait</h2>
+                                {/* <div className="desc text-start">                                    
+                                    <p>Mojopait is a HRIS web application developed for PT. Telkomsel IT Jatim Balnus Division to track project progress, attendance, overtime, and employee performance</p>
+                                </div> */}
+                                <div>
+                                    <button className="btn btn-success" onClick={() => handleProjectDetail(5)}>
                                         <span><i className="fa fa-info"></i></span> Click for details
                                     </button>
                                 </div>
@@ -334,9 +409,9 @@ export default function Content() {
                                     <img src="images/nagita/nagita-board.png" alt="Nagita Screenshot" className="img-fluid project-image rounded shadow-sm" />
                                 </div>
                                 <h2 className="title mb-3">Nagita</h2>
-                                <div className="desc text-start">                                    
+                                {/* <div className="desc text-start">                                    
                                     <p>Nagita is a project management application develop to track project progress at PT. Telkomsel IT Jatim Balnus Division</p>
-                                </div>
+                                </div> */}
                                 <div>
                                     <button className="btn btn-success" onClick={() => handleProjectDetail(1)}>
                                         <span><i className="fa fa-info"></i></span> Click for details
@@ -348,9 +423,9 @@ export default function Content() {
                                     <img src="images/gracita/gracita-checklist.png" alt="Gracita Screenshot" className="img-fluid project-image rounded shadow-sm" />
                                 </div>
                                 <h2 className="title mb-3">Gracita</h2>
-                                <div className="desc text-start">                                    
+                                {/* <div className="desc text-start">                                    
                                     <p>Gracita is a web application used to perform checklist for server devices monitoring and maintenance in PT. Telkomsel IT Jatim Balnus</p>
-                                </div>
+                                </div> */}
                                 <div>
                                     <button className="btn btn-success" onClick={() => handleProjectDetail(2)}>
                                         <span><i className="fa fa-info"></i></span> Click for details
@@ -362,9 +437,9 @@ export default function Content() {
                                     <img src="images/hamengkubuwono/hamengkubuwono-grapari.png" alt="Hamengkubwono Screenshot" className="img-fluid project-image rounded shadow-sm" />
                                 </div>
                                 <h2 className="title mb-3">Telegram Bot Hamengkubuwono</h2>
-                                <div className="desc text-start">                                    
+                                {/* <div className="desc text-start">                                    
                                     <p>Hamengkubowono is a telegram bot used to report an incident at PT. Telkomsel Grapari or Gerai IT Jatim Balnus</p>
-                                </div>
+                                </div> */}
                                 <div>
                                     <button className="btn btn-success" onClick={() => handleProjectDetail(3)}>
                                         <span><i className="fa fa-info"></i></span> Click for details
@@ -376,9 +451,9 @@ export default function Content() {
                                     <img src="images/montiro/1.png" alt="Montiro Screenshot" className="img-fluid project-image rounded shadow-sm" />
                                 </div>
                                 <h2 className="title mb-3">BTN Smart Residence X Montiro Webview</h2>
-                                <div className="desc text-start">                                    
+                                {/* <div className="desc text-start">                                    
                                     <p>Montiro is a service for ordering mechanic or tow truck services on the BTN Smart Residence application</p>
-                                </div>
+                                </div> */}
                                 <div>
                                     <button className="btn btn-success" onClick={() => handleProjectDetail(4)}>
                                         <span><i className="fa fa-info"></i></span> Click for details
@@ -393,11 +468,25 @@ export default function Content() {
                                     <img src="images/gen-bot/ss_gen_bot1.png" alt="Generative Bot Screenshot" className="img-fluid project-image rounded shadow-sm" />
                                 </div>
                                 <h2 className="title mb-3">Generative Bot using Vicuna 13B Model</h2>
-                                <div className="desc text-start">                                    
+                                {/* <div className="desc text-start">                                    
                                     <p>This is a hobby project for me to lern how to run Vicuna 13B with python langchain library</p>
-                                </div>
+                                </div> */}
                                 <div>
                                     <button className="btn btn-success" onClick={() => handleProjectDetail(100)}>
+                                        <span><i className="fa fa-info"></i></span> Click for details
+                                    </button>
+                                </div>
+                            </div>
+                            <div className="item featured">
+                                <div className="featured-image has-ribbon">
+                                    <img src="images/my-password/1.png" alt="My Password" className="img-fluid project-image rounded shadow-sm" />
+                                </div>
+                                <h2 className="title mb-3">My Password</h2>
+                                {/* <div className="desc text-start">                                    
+                                    <p>This is a hobby project for me to lern how to run Vicuna 13B with python langchain library</p>
+                                </div> */}
+                                <div>
+                                    <button className="btn btn-success" onClick={() => handleProjectDetail(101)}>
                                         <span><i className="fa fa-info"></i></span> Click for details
                                     </button>
                                 </div>
