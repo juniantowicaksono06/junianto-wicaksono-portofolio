@@ -536,6 +536,7 @@ export default function Content() {
                         <div className="content">
                             <ul className="list-unstyled">
                                 <li><i className="fas fa-map-marker-alt"></i><span className="sr-only">Location:</span>Surabaya, Indonesia</li>
+                                <li><i className="fas fa-phone"></i><span className="sr-only">Phone:</span>+62 813 5407 0748</li>
                                 <li><i className="fas fa-envelope"></i><span className="sr-only">Email:</span><a href="mailto:juniantowicaksono22@gmail.com">juniantowicaksono22@gmail.com</a></li>
                             </ul>
                         </div>
@@ -599,7 +600,11 @@ export default function Content() {
                         <h2 className="heading">Education</h2>
                         <div className="content">
                             <div className="item">                      
-                                <h3 className="title"><i className="fas fa-graduation-cap"></i> Information Tehcnology</h3>
+                                <h3 className="title"><i className="fas fa-graduation-cap"></i> Information Tehcnology | S1</h3>
+                                <h4 className="university">Universitas Narotama <span className="year">(2024-2025)</span></h4>
+                            </div>
+                            <div className="item">                      
+                                <h3 className="title"><i className="fas fa-graduation-cap"></i> Information Tehcnology | D3</h3>
                                 <h4 className="university">Politeknik Amamapare Timika <span className="year">(2016-2019)</span></h4>
                             </div>
                         </div>
