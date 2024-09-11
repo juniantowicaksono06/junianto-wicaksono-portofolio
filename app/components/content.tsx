@@ -205,7 +205,7 @@ export default function Content() {
             )
             setProjectModal(prevState => ({
                 ...prevState,
-                projectTitle: "BTN Smart Residence X Montiro",
+                projectTitle: "Mojopait",
                 projectDescription: "Mojopait is a HRIS web application developed for PT. Telkomsel IT Jatim Balnus Division to track project progress, attendance, overtime, and employee performance",
                 projectImages: [
                     "images/mojopait/1.jpg",
