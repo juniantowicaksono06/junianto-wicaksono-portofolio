@@ -215,6 +215,29 @@ export default function Content() {
                 projectVideos: []
             }))
         }
+        else if(id == 6) {
+            techStacks = (
+                <>
+                    <h5>Frontend</h5>
+                    <ul>
+                        <li>Laravel + Alpine.JS</li>
+                    </ul>
+                </>
+            )
+            setProjectModal(prevState => ({
+                ...prevState,
+                projectTitle: "Diginect CRM",
+                projectDescription: "Developing the frontend of the CRM application for PT Sinergi Digital Koneksi (Diginect).",
+                projectImages: [
+                    "images/diginect-crm/crm-1.png",
+                    "images/diginect-crm/crm-2.png",
+                    "images/diginect-crm/crm-3.png",
+                    "images/diginect-crm/crm-4.png",
+                    "images/diginect-crm/crm-5.png",
+                ],
+                projectVideos: []
+            }))
+        }
         else if(id == 100) {
             techStacks = (
                 <>
@@ -460,6 +483,20 @@ export default function Content() {
                                     </button>
                                 </div>
                             </div>
+                            <div className="item featured">
+                                <div className="featured-image has-ribbon">
+                                    <img src="images/diginect-crm/crm-1.png" alt="Diginect CRM Screenshot" className="img-fluid project-image rounded shadow-sm" />
+                                </div>
+                                <h2 className="title mb-3">Customer Relationship Management (CRM) PT Sinergi Digital Koneksi</h2>
+                                {/* <div className="desc text-start">                                    
+                                    <p>Montiro is a service for ordering mechanic or tow truck services on the BTN Smart Residence application</p>
+                                </div> */}
+                                <div>
+                                    <button className="btn btn-success" onClick={() => handleProjectDetail(6)}>
+                                        <span><i className="fa fa-info"></i></span> Click for details
+                                    </button>
+                                </div>
+                            </div>
                         </div>
                         <h2 className="heading">Side Projects</h2>
                         <div className="content">
@@ -499,8 +536,22 @@ export default function Content() {
                         <h2 className="heading">Work Experience</h2>
                         <div className="content">
                             <div className="item">
+                                <h3 className="title">Freelance Frontend Developer - <span className="place">PT. Sinergi Digital Koneksi</span> <span className="year">(Sep 2024 - Nov 2024)</span></h3>
+                                <p>Here is the project I worked on at PT. Sinergi Digital Koneksi:</p>
+                                <ul>
+                                    <li>Developing the frontend of the CRM application for PT Sinergi Digital Koneksi, encompassing design implementation, component management, and performance optimization.</li>
+                                    <li>Performing design slicing from Figma to HTML using the Alpine.js library, ensuring alignment with the desired design and optimal responsiveness.</li>
+                                    <li>Integrating all functionalities across all pages of the CRM application with APIs and Socket.IO, including testing to ensure a seamless user experience.</li>
+                                </ul>
+                            </div>
+                            <div className="item">
                                 <h3 className="title">Freelance Developer - <span className="place"><Link href="https://ptkam.co.id/id/" target='_blank'>PT. Vascomm Solusi Teknologi</Link></span> <span className="year">(Feb 2024 - Apr 2024)</span></h3>
-                                <p>At PT. Vascomm Solusi Teknologi I worked as a freelance developer to develop new feature on the existing application for PT. Bank Tabungan Negara Tbk.</p>
+                                <p>At PT. Vascomm Solusi Teknologi I worked as a freelance developer to develop new feature on the existing application for PT. Bank Tabungan Negara Tbk. Here is the project I worked on:</p>
+                                <ul>
+                                    <li>Creating and integrating new API endpoints with Laravel to support front-end applicationneeds.</li>
+                                    <li>Create API documentation for internal and external use.</li>
+                                    <li>Conducting unit and integration testing to ensure code quality and troubleshooting issues in development and production.</li>
+                                </ul>
                             </div>
                             <div className="item">
                                 <h3 className="title">IT Programmer - <span className="place"><Link href="https://ptkam.co.id/id/" target='_blank'>PT. Kinarya Alihdaya Mandiri</Link></span> <span className="year">(Apr 2022 - Dec 2023)</span></h3>
