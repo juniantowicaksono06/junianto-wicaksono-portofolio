@@ -222,6 +222,10 @@ export default function Content() {
                     <ul>
                         <li>Laravel + Alpine.JS</li>
                     </ul>
+                    <h5>Websocket</h5>
+                    <ul>
+                        <li>Socket.IO</li>
+                    </ul>
                 </>
             )
             setProjectModal(prevState => ({
@@ -640,6 +644,7 @@ export default function Content() {
                                             <li className="list-group-item">Linux</li>
                                             <li className="list-group-item">Git</li>
                                             <li className="list-group-item">Jenkins</li>
+                                            <li className="list-group-item">RabbitMQ</li>
                                         </ul>
                                     </div>
                                 </div>              
