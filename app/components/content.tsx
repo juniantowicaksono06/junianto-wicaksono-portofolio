@@ -724,6 +724,12 @@ export default function Content() {
                                                     <span>Redis</span>
                                                 </span>
                                             </div>
+                                            <div className="col-4 col-lg-6 mb-2">
+                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
+                                                    <img src="https://static-00.iconduck.com/assets.00/rabbitmq-icon-484x512-s9lfaapn.png" alt="" width={24} height={24} />
+                                                    <span>RabbitMQ</span>
+                                                </span>
+                                            </div>
                                         </div>
                                     </div>
                                     <div className="item">
