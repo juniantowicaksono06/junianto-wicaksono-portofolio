@@ -52,10 +52,22 @@ export default function Header() {
 						</div>
 			        </div>
                     <div className="mb-1">
-	                    <Link className="btn btn-primary" href="https://t.me/juniantowicaksono06" target="_blank"><i className="fab fa-telegram"></i> Telegram</Link>        
+	                    <Link className="btn btn-primary w-100 d-flex align-items-center justify-content-center" href="https://t.me/juniantowicaksono06" target="_blank">
+                            <i className="fab fa-telegram mt-1"></i> 
+                            <span>Telegram</span>
+                        </Link>        
                     </div>
                     <div>
-	                    <Link className="btn btn-success" href="https://wa.me/6281354070748" target="_blank" style={{marginTop: '0'}}><i className="fab fa-whatsapp"></i> WhatsApp</Link>        
+	                    <Link className="btn btn-success w-100 d-flex align-items-center justify-content-center mt-2" href="https://wa.me/6281354070748" target="_blank" style={{marginTop: '0'}}>
+                            <i className="fab fa-whatsapp mt-1"></i> 
+                            <span>WhatsApp</span>
+                        </Link>        
+                    </div>
+                    <div>
+	                    <Link className="btn btn-danger w-100 d-flex align-items-center justify-content-center mt-2" href="https://drive.google.com/file/d/1vH8FSWK9I6zeHOIxDWSbbMiCT21FIYVk/view?usp=sharing" target="_blank" style={{marginTop: '0'}}>
+                            <i className="fas fa-file-pdf mt-1"></i> 
+                            <span>Download Resume</span>
+                        </Link>        
                     </div>
 	            </div>
             </div>

@@ -47,7 +47,7 @@ export default function Content() {
             setProjectModal(prevState => ({
                 ...prevState,
                 projectTitle: "Vmedis",
-                projectDescription: "Vmedis is a Clinical Pharmacy web app Software to help manage drug stock and finances of pharmacies and clinicks",
+                projectDescription: "Vmedis is a complete solution to help pharmacies and clinics manage various aspects of their business. Starting from management, stock, procurement, finance, taxes, even HR.",
                 projectWhatToDo: <>
                     <p>At Vmedis i worked as a web developer to develop new feature and fixing bug on the existing Vmedis web app</p>
                     <p>For the demo of the vmedis web app you can click <Link href="https://demo.vmedis.com" target='_blank'>this link</Link></p>
@@ -84,7 +84,7 @@ export default function Content() {
             setProjectModal(prevState => ({
                 ...prevState,
                 projectTitle: "Nagita",
-                projectDescription: "Nagita is a project management application develop to track project progress in PT. Telkomsel IT Jatim Balnus Division",
+                projectDescription: "Nagita is a project management tool made for Telkomsel Indonesia to help staff track the progress of their tasks in real time using MEVN Stack.",
                 projectImages: [
                     "images/nagita/nagita-login.png",
                     "images/nagita/nagita-board.png",
@@ -114,7 +114,7 @@ export default function Content() {
             setProjectModal(prevState => ({
                 ...prevState,
                 projectTitle: "Gracita",
-                projectDescription: "Gracita is a web application used to perform checklist for server devices monitoring and maintenance in PT. Telkomsel IT Jatim Balnus",
+                projectDescription: "Gracita is an operational checklist management app made for Telkomsel Indonesia to help staff create daily server maintenance reports.",
                 projectImages: [
                     "images/gracita/gracita-login.png",
                     "images/gracita/gracita-checklist.png",
@@ -138,7 +138,7 @@ export default function Content() {
             setProjectModal(prevState => ({
                 ...prevState,
                 projectTitle: "Telegram Bot Hamengkubuwono",
-                projectDescription: "Hamengkubowono is a telegram bot used to report an incident in PT. Telkomsel Grapari or Gerai IT Jatim Balnus",
+                projectDescription: "Hamengkubuwono is a Telegram bot made for Telkomsel Indonesia to help staff perform daily checklist on the site",
                 projectImages: [
                     "images/hamengkubuwono/hamengkubuwono-welcome.png",
                     "images/hamengkubuwono/hamengkubuwono-incident.png",
@@ -157,7 +157,7 @@ export default function Content() {
                     </ul>
                     <h5>Backend</h5>
                     <ul>
-                        <li>Laravel Versi 8.83.27</li>
+                        <li>Laravel 8</li>
                     </ul>
                     <h5>Database</h5>
                     <ul>
@@ -168,7 +168,7 @@ export default function Content() {
             setProjectModal(prevState => ({
                 ...prevState,
                 projectTitle: "BTN Smart Residence X Montiro",
-                projectDescription: "Montiro is a service for ordering mechanic or tow truck services on the BTN Smart Residence application",
+                projectDescription: "Integrate Montiro service with BTN Smart Residence APP. Montiro is a service for ordering mechanic or tow truck services.",
                 projectImages: [
                     "images/montiro/1.png",
                     "images/montiro/2.png",
@@ -206,7 +206,7 @@ export default function Content() {
             setProjectModal(prevState => ({
                 ...prevState,
                 projectTitle: "Mojopait",
-                projectDescription: "Mojopait is a HRIS web application developed for PT. Telkomsel IT Jatim Balnus Division to track project progress, attendance, overtime, and employee performance",
+                projectDescription: "Mojopait is a HRIS web application developed for Telkomsel IT Jatim Balnus Division to track project progress, attendance, overtime, and employee performance",
                 projectImages: [
                     "images/mojopait/1.jpg",
                     "images/mojopait/2.jpg",
@@ -227,7 +227,7 @@ export default function Content() {
             setProjectModal(prevState => ({
                 ...prevState,
                 projectTitle: "Diginect CRM",
-                projectDescription: "Developing the frontend of the CRM application for PT Sinergi Digital Koneksi (Diginect).",
+                projectDescription: "Develop the CRM application for Sinergi Digital Koneksi from the frontend side.",
                 projectImages: [
                     "images/diginect-crm/crm-1.png",
                     "images/diginect-crm/crm-2.png",
@@ -391,9 +391,57 @@ export default function Content() {
                     <div className="section-inner shadow-sm rounded">
                         <h2 className="heading">About Me</h2>
                         <div className="content">
-                            <p>Hello, my name is Junianto Ichwan Dwi Wicaksono. I am a self taught developer. I always love learn something new. Love coding and watching anime. I have worked as a Fullstack Developer for about { myExperience } years</p>
+                            <p>I am an enthusiastic Full Stack Developer with an educational background in Computer Science. I have a strong understanding of computer science, programming, and the practical skills needed to excel in the professional world.</p>
                         </div>
                     </div>
+                </section>
+                
+                <section className="experience section">
+                    <div className="section-inner shadow-sm rounded">
+                        <h2 className="heading">Work Experience</h2>
+                        <div className="content">
+                            <div className="item">
+                                <h3 className="title">Freelance Frontend Developer - <span className="place">Sinergi Digital Koneksi</span> <span className="year">(Sep 2024 - Nov 2024)</span></h3>
+                                <ul>
+                                    <li>Develop the CRM application for Sinergi Digital Koneksi from the frontend side.</li>
+                                    <li>Perform design slicing from Figma to HTML using the Alpine.js library.</li>
+                                    <li>Integrate all functionalities of all pages in the CRM application with the API and Socket.IO,including testing to ensure a good user experience.</li>
+                                </ul>
+                            </div>
+                            <div className="item">
+                                <h3 className="title">Freelance Developer - <span className="place"><Link href="https://ptkam.co.id/id/" target='_blank'>Vascomm Solusi Teknologi</Link></span> <span className="year">(Feb 2024 - Apr 2024)</span></h3>
+                                <ul>
+                                    <li>Integrate Montiro API with BTN Smart Residence to provide mechanic and towing bookingfeatures, expanding the app's service reach using Laravel 8.</li>
+                                    <li>Perform API testing and ensuring that all functionalities of the API are working well.</li>
+                                    <li>Create structured API documentation using Postman collection.</li>
+                                </ul>
+                            </div>
+                            <div className="item">
+                                <h3 className="title">IT Programmer - <span className="place"><Link href="https://ptkam.co.id/id/" target='_blank'>Kinarya Alihdaya Mandiri</Link></span> <span className="year">(Apr 2022 - Dec 2023)</span></h3>
+                                <ul>
+                                    <li>Develop a brand new project management application called Nagita for Telkomsel Indonesia tohelp staff track the progress of their tasks in real-time using MEVN Stack.</li>
+                                    <li>Developing an operational checklist management app called Gracita for Telkomsel Indonesia tohelp staff create daily server maintenance reports.</li>
+                                    <li>Identifiy and resolve SQL Injection Query in one of the existing telegram bot.</li>
+                                    <li>Create and maintain a Telegram bot for message automation, data collection, and integrationwith external services for Telkomsel Indonesia.</li>
+                                </ul>
+                            </div>
+                            <div className="item">
+                                <h3 className="title">Web Developer - <span className="place"><Link href="https://vmedis.com" target='_blank'>Virtual Medis Internasional</Link></span> <span className="year">(Oct 2020 - Apr 2022)</span></h3>
+                                <ul>
+                                    <li>Design and implement new features in the Vmedis web application, including requirementsanalysis, technical design, and code development using Yii2 Framework.</li>
+                                    <li>Collaborate with developers, designers, and product managers to ensure new features and bugfixes meet project requirements and quality standards.</li>
+                                    <li>Optimize MySQL Query to increase the web app response by 40%.</li>
+                                </ul>
+                            </div>
+                            <div className="item">
+                                <h3 className="title">Admin Staff - <span className="place">Angkasa Aviasi Servis</span> <span className="year">(Oct 2019 - Oct 2020)</span></h3>
+                                <ul>
+                                    <li>Manage daily administrative tasks such as document management, record updates, andgeneral administration to support Pasasi operations.</li>
+                                    <li>Process and analyze data related to Pasasi activities, including database management andreporting to provide accurate and timely information.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>                
                 </section>
                 <section className="latest section">
                     <div className="section-inner shadow-sm rounded">
@@ -419,7 +467,7 @@ export default function Content() {
                                 </div>
                                 <h2 className="title mb-3">Mojopait</h2>
                                 {/* <div className="desc text-start">                                    
-                                    <p>Mojopait is a HRIS web application developed for PT. Telkomsel IT Jatim Balnus Division to track project progress, attendance, overtime, and employee performance</p>
+                                    <p>Mojopait is a HRIS web application developed for Telkomsel IT Jatim Balnus Division to track project progress, attendance, overtime, and employee performance</p>
                                 </div> */}
                                 <div>
                                     <button className="btn btn-success" onClick={() => handleProjectDetail(5)}>
@@ -433,7 +481,7 @@ export default function Content() {
                                 </div>
                                 <h2 className="title mb-3">Nagita</h2>
                                 {/* <div className="desc text-start">                                    
-                                    <p>Nagita is a project management application develop to track project progress at PT. Telkomsel IT Jatim Balnus Division</p>
+                                    <p>Nagita is a project management application develop to track project progress at Telkomsel IT Jatim Balnus Division</p>
                                 </div> */}
                                 <div>
                                     <button className="btn btn-success" onClick={() => handleProjectDetail(1)}>
@@ -447,7 +495,7 @@ export default function Content() {
                                 </div>
                                 <h2 className="title mb-3">Gracita</h2>
                                 {/* <div className="desc text-start">                                    
-                                    <p>Gracita is a web application used to perform checklist for server devices monitoring and maintenance in PT. Telkomsel IT Jatim Balnus</p>
+                                    <p>Gracita is a web application used to perform checklist for server devices monitoring and maintenance in Telkomsel IT Jatim Balnus</p>
                                 </div> */}
                                 <div>
                                     <button className="btn btn-success" onClick={() => handleProjectDetail(2)}>
@@ -461,7 +509,7 @@ export default function Content() {
                                 </div>
                                 <h2 className="title mb-3">Telegram Bot Hamengkubuwono</h2>
                                 {/* <div className="desc text-start">                                    
-                                    <p>Hamengkubowono is a telegram bot used to report an incident at PT. Telkomsel Grapari or Gerai IT Jatim Balnus</p>
+                                    <p>Hamengkubowono is a telegram bot used to report an incident at Telkomsel Grapari or Gerai IT Jatim Balnus</p>
                                 </div> */}
                                 <div>
                                     <button className="btn btn-success" onClick={() => handleProjectDetail(3)}>
@@ -487,7 +535,7 @@ export default function Content() {
                                 <div className="featured-image has-ribbon">
                                     <img src="images/diginect-crm/crm-1.png" alt="Diginect CRM Screenshot" className="img-fluid project-image rounded shadow-sm" />
                                 </div>
-                                <h2 className="title mb-3">Customer Relationship Management (CRM) PT Sinergi Digital Koneksi</h2>
+                                <h2 className="title mb-3">Customer Relationship Management (CRM) Sinergi Digital Koneksi</h2>
                                 {/* <div className="desc text-start">                                    
                                     <p>Montiro is a service for ordering mechanic or tow truck services on the BTN Smart Residence application</p>
                                 </div> */}
@@ -531,59 +579,10 @@ export default function Content() {
                         </div>
                     </div>
                 </section>
-                <section className="experience section">
-                    <div className="section-inner shadow-sm rounded">
-                        <h2 className="heading">Work Experience</h2>
-                        <div className="content">
-                            <div className="item">
-                                <h3 className="title">Freelance Frontend Developer - <span className="place">PT. Sinergi Digital Koneksi</span> <span className="year">(Sep 2024 - Nov 2024)</span></h3>
-                                <p>Here is the project I worked on at PT. Sinergi Digital Koneksi:</p>
-                                <ul>
-                                    <li>Developing the frontend of the CRM application for PT Sinergi Digital Koneksi, encompassing design implementation, component management, and performance optimization.</li>
-                                    <li>Performing design slicing from Figma to HTML using the Alpine.js library, ensuring alignment with the desired design and optimal responsiveness.</li>
-                                    <li>Integrating all functionalities across all pages of the CRM application with APIs and Socket.IO, including testing to ensure a seamless user experience.</li>
-                                </ul>
-                            </div>
-                            <div className="item">
-                                <h3 className="title">Freelance Developer - <span className="place"><Link href="https://ptkam.co.id/id/" target='_blank'>PT. Vascomm Solusi Teknologi</Link></span> <span className="year">(Feb 2024 - Apr 2024)</span></h3>
-                                <p>At PT. Vascomm Solusi Teknologi I worked as a freelance developer to develop new feature on the existing application for PT. Bank Tabungan Negara Tbk. Here is the project I worked on:</p>
-                                <ul>
-                                    <li>Creating and integrating new API endpoints with Laravel to support front-end applicationneeds.</li>
-                                    <li>Create API documentation for internal and external use.</li>
-                                    <li>Conducting unit and integration testing to ensure code quality and troubleshooting issues in development and production.</li>
-                                </ul>
-                            </div>
-                            <div className="item">
-                                <h3 className="title">IT Programmer - <span className="place"><Link href="https://ptkam.co.id/id/" target='_blank'>PT. Kinarya Alihdaya Mandiri</Link></span> <span className="year">(Apr 2022 - Dec 2023)</span></h3>
-                                <p>At PT. Kinarya Alihdaya Mandiri I worked as an outsource programmer for PT. Telekomunikasi Seluler (Telkomsel). My task here is to develop new app such as web app named Nagita and maintenance existing app such as:</p>
-                                <ul>
-                                    <li>Advanced Web Programmer: Designing and implementing robust web solutions tailored to meet diverse client needs, leveraging expertise in front-end and back-end development to ensure optimal user experiences and functionality.</li>
-                                    <li>Aspiring Android Developer: Gaining proficiency in Android app development through hands-on projects and learning initiatives, with a focus on creating intuitive mobile applications that integrate seamlessly with various platforms.</li>
-                                    <li>ETL Specialist: Spearheading the development and maintenance of Extract, Transform, Load (ETL) processes utilizing advanced tools like Pandas for data manipulation, Selenium for web scraping, BeautifulSoup for parsing, and Matplotlib for data visualization, ensuring efficient data workflows and analytics capabilities.</li>
-                                    <li>Python Developer: Innovating with Python to build and enhance Telegram bots that automate tasks, provide real-time information, and enhance user engagement through intuitive bot functionalities and integrations with external APIs.</li>
-                                    <li>Robotic Project Engineer: Leading a Raspberry Pi 4 Model B-based robotic project, applying technical expertise in hardware interfacing, sensor integration, and software development to create autonomous systems that solve practical challenges in automation and robotics.</li>
-                                </ul>
-                            </div>
-                            <div className="item">
-                                <h3 className="title">Web Developer - <span className="place"><Link href="https://vmedis.com" target='_blank'>PT. Virtual Medis Internasional</Link></span> <span className="year">(Oct 2020 - Apr 2022)</span></h3>
-                                <p>At PT. Virtual Medis Internasional I worked as a web developer. My task here is to develop new feature on the existing web app and as well maintenance the web app</p>
-                            </div>
-                            <div className="item">
-                                <h3 className="title">Admin Staff - <span className="place">PT. Angkasa Aviasi Servis</span> <span className="year">(Oct 2019 - Oct 2020)</span></h3>
-                                <p>At PT. Angkasa Aviasi Servis I worked as an admin staff. My task is to manage the office required asset</p>
-                            </div>
-                            <div className="item">
-                                <h3 className="title">Service Area Engineer - <span className="place"><Link href="https://www.visionet.co.id/id/beranda/" target="_blank">PT. Visionet Data Internasional</Link></span> <span className="year">(Mar 2019 - May 2019)</span></h3>
-                                <p>At PT. Visionet Data Internasional I worked as an engineer to monitoring BRI (Bank Rakyat Indonesia) IT Asset.</p>
-                            </div>
-                        </div>
-                    </div>                
-                </section>
             </div>
             <div className="secondary col-lg-4 col-12">
                 <aside className="info aside section">
                     <div className="section-inner shadow-sm rounded">
-                        <h2 className="heading sr-only">Basic Information</h2>
                         <div className="content">
                             <ul className="list-unstyled">
                                 <li><i className="fas fa-map-marker-alt"></i><span className="sr-only">Location:</span>Surabaya, Indonesia</li>
@@ -600,14 +599,229 @@ export default function Content() {
                                 <p className="intro">Here are list of my skill as a Fullstack Developer</p>
                                 <div className="skillset">
                                     <div className="item">
-                                        <h3 className="level-title">Programming Language</h3>
-                                        <ul className="list-group list-group-flush">
-                                            <li className="list-group-item">Python</li>
-                                            <li className="list-group-item">JavaScript</li>
-                                            <li className="list-group-item">PHP</li>
-                                        </ul>
+                                        <h3 className="level-title">Frontend</h3>
+                                        <div className="row">
+                                            <div className="col-4 col-lg-6 mb-2">
+                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
+                                                    <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" alt="" width={24} height={24} />
+                                                    <span>HTML</span>
+                                                </span>
+                                            </div>
+                                            <div className="col-4 col-lg-6 mb-2">
+                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
+                                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" alt="" width={24} height={24} />
+                                                    <span>CSS</span>
+                                                </span>
+                                            </div>
+                                            <div className="col-4 col-lg-6 mb-2">
+                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
+                                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" alt="" width={24} height={24} />
+                                                    <span>JavaScript</span>
+                                                </span>
+                                            </div>
+                                            <div className="col-4 col-lg-6 mb-2">
+                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
+                                                    <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" alt="" width={24} height={24} />
+                                                    <span>Bootstrap</span>
+                                                </span>
+                                            </div>
+                                            <div className="col-4 col-lg-6 mb-2">
+                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
+                                                    <img src="https://zaeem9233.github.io/portfolio/static/media/tailwind-css.fb395485ba53b8dbafcf.png" alt="" width={24} height={24} />
+                                                    <span>Tailwind CSS</span>
+                                                </span>
+                                            </div>
+                                            <div className="col-4 col-lg-6 mb-2">
+                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
+                                                    <img src="https://static-00.iconduck.com/assets.00/jquery-original-wordmark-icon-485x512-7kn0h2yt.png" alt="" width={24} height={24} />
+                                                    <span>JQuery</span>
+                                                </span>
+                                            </div>
+                                            <div className="col-4 col-lg-6 mb-2">
+                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
+                                                    <img src="https://static-00.iconduck.com/assets.00/vue-js-icon-2048x1766-btrgkrhi.png" alt="" width={20} height={20} />
+                                                    <span>Vue JS</span>
+                                                </span>
+                                            </div>
+                                            <div className="col-4 col-lg-6 mb-2">
+                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
+                                                    <img src="https://w7.pngwing.com/pngs/79/518/png-transparent-js-react-js-logo-react-react-native-logos-icon.png" alt="" width={24} height={24} />
+                                                    <span>React JS</span>
+                                                </span>
+                                            </div>
+                                            <div className="col-4 col-lg-6 mb-2">
+                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
+                                                    <img src="https://sperovita.gallerycdn.vsassets.io/extensions/sperovita/alpinejs-syntax-highlight/1.0.1/1642647041367/Microsoft.VisualStudio.Services.Icons.Default" alt="" width={24} height={24} />
+                                                    <span>Alpine.JS</span>
+                                                </span>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div className="item">
+                                        <h3 className="level-title">Backend</h3>
+                                        <div className="row">
+                                            <div className="col-4 col-lg-6 mb-2">
+                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
+                                                    <img src="https://zaeem9233.github.io/portfolio/static/media/php.2c20492acd42411e3b10.png" alt="" width={24} height={24} />
+                                                    <span>PHP</span>
+                                                </span>
+                                            </div>
+                                            <div className="col-4 col-lg-6 mb-2">
+                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
+                                                    <img src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png" alt="" width={24} height={24} />
+                                                    <span>Python</span>
+                                                </span>
+                                            </div>
+                                            <div className="col-4 col-lg-6 mb-2">
+                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
+                                                    <img src="https://static-00.iconduck.com/assets.00/flutter-icon-2048x2048-ufx4idi8.png" alt="" width={24} height={24} />
+                                                    <span>Flutter</span>
+                                                </span>
+                                            </div>
+                                            <div className="col-4 col-lg-6 mb-2">
+                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
+                                                    <img src="https://static-00.iconduck.com/assets.00/laravel-icon-995x1024-dk77ahh4.png" alt="" width={24} height={24} />
+                                                    <span>Laravel</span>
+                                                </span>
+                                            </div>
+                                            <div className="col-4 col-lg-6 mb-2">
+                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
+                                                    <img src="https://static-00.iconduck.com/assets.00/codeigniter-icon-1729x2048-xy6rlkco.png" alt="" width={24} height={24} />
+                                                    <span>CodeIgniter</span>
+                                                </span>
+                                            </div>
+                                            <div className="col-4 col-lg-6 mb-2">
+                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
+                                                    <img src="https://static-00.iconduck.com/assets.00/flask-icon-1594x2048-84mjydzf.png" alt="" width={24} height={24} />
+                                                    <span>Flask</span>
+                                                </span>
+                                            </div>
+                                            <div className="col-4 col-lg-6 mb-2">
+                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
+                                                    <img src="https://img.icons8.com/color/512/express-js.png" alt="" width={24} height={24} />
+                                                    <span>Express</span>
+                                                </span>
+                                            </div>
+                                            <div className="col-4 col-lg-6 mb-2">
+                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
+                                                    <img src="https://static-00.iconduck.com/assets.00/next-js-icon-2048x1234-85gmuivx.png" alt="" width={24} height={24} />
+                                                    <span>Next JS</span>
+                                                </span>
+                                            </div>
+                                            <div className="col-4 col-lg-6 mb-2">
+                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
+                                                    <img src="https://zaeem9233.github.io/portfolio/static/media/restapi.1ff48fd733c946ab0d59.png" alt="" width={20} height={20} />
+                                                    <span>Rest API</span>
+                                                </span>
+                                            </div>
+                                            <div className="col-4 col-lg-6 mb-2">
+                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
+                                                    <img src="https://cdn4.iconfinder.com/data/icons/redis-2/1451/Untitled-2-512.png" alt="" width={24} height={24} />
+                                                    <span>Redis</span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="item">
+                                        <h3 className="level-title">Database</h3>
+                                        <div className="row">
+                                            <div className="col-4 col-lg-6 mb-2">
+                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
+                                                    <img src="https://www.svgrepo.com/show/303251/mysql-logo.svg" alt="" width={24} height={24} />
+                                                    <span>MySQL</span>
+                                                </span>
+                                            </div>
+                                            <div className="col-4 col-lg-6 mb-2">
+                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
+                                                    <img src="https://mariadb.com/wp-content/uploads/2019/11/mariadb-logo-vert_blue-transparent.png" alt="" width={24} height={24} />
+                                                    <span>MariaDB</span>
+                                                </span>
+                                            </div>
+                                            <div className="col-4 col-lg-6 mb-2">
+                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
+                                                    <img src="https://static-00.iconduck.com/assets.00/postgresql-icon-1987x2048-v2fkmdaw.png" alt="" width={24} height={24} />
+                                                    <span>PostgreSQL</span>
+                                                </span>
+                                            </div>
+                                            <div className="col-4 col-lg-6 mb-2">
+                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
+                                                    <img src="https://www.svgrepo.com/show/331488/mongodb.svg" alt="" width={24} height={24} />
+                                                    <span>MongoDB</span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="item">
+                                        <h3 className="level-title">DevOps</h3>
+                                        <div className="row">
+                                            <div className="col-4 col-lg-6 mb-2">
+                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
+                                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jenkins_logo.svg/1483px-Jenkins_logo.svg.png" alt="" width={24} height={24} />
+                                                    <span>Jenkins</span>
+                                                </span>
+                                            </div>
+                                            <div className="col-4 col-lg-6 mb-2">
+                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
+                                                    <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-512.png" alt="" width={24} height={24} />
+                                                    <span>Docker</span>
+                                                </span>
+                                            </div>
+                                            <div className="col-4 col-lg-6 mb-2">
+                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
+                                                    <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/aws-icon.png" alt="" width={24} height={24} />
+                                                    <span>AWS</span>
+                                                </span>
+                                            </div>
+                                            <div className="col-4 col-lg-6 mb-2">
+                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
+                                                    <img src="https://static-00.iconduck.com/assets.00/apache-icon-1024x2048-c1uxmyjc.png" alt="" width={24} height={24} />
+                                                    <span>Apache</span>
+                                                </span>
+                                            </div>
+                                            <div className="col-4 col-lg-6 mb-2">
+                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
+                                                    <img src="https://static-00.iconduck.com/assets.00/file-type-nginx-icon-1793x2048-yt5u3fm7.png" alt="" width={24} height={24} />
+                                                    <span>Nginx</span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="item">
+                                        <h3 className="level-title">Others</h3>
+                                        <div className="row">
+                                            <div className="col-4 col-lg-6 mb-2">
+                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
+                                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" alt="" width={24} height={24} />
+                                                    <span>VS Code</span>
+                                                </span>
+                                            </div>
+                                            <div className="col-4 col-lg-6 mb-2">
+                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
+                                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png" alt="" width={24} height={24} />
+                                                    <span>Git</span>
+                                                </span>
+                                            </div>
+                                            <div className="col-4 col-lg-6 mb-2">
+                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
+                                                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" width={24} height={24} />
+                                                    <span>Github</span>
+                                                </span>
+                                            </div>
+                                            <div className="col-4 col-lg-6 mb-2">
+                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
+                                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ5yPOAbr-LrEa8ANO47RBo4f2txsvjPL-fw&s" alt="" width={24} height={24} />
+                                                    <span>Postman</span>
+                                                </span>
+                                            </div>
+                                            <div className="col-4 col-lg-6 mb-2">
+                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
+                                                    <img src="https://static-00.iconduck.com/assets.00/apps-figma-icon-1024x1024-cb4t8vyj.png" alt="" width={24} height={24} />
+                                                    <span>Figma</span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* <div className="item">
                                         <h3 className="level-title">Frameworks &amp; Library</h3>
                                         <ul className="list-group list-group-flush">
                                             <li className="list-group-item">NuxtJS</li>
@@ -641,7 +855,7 @@ export default function Content() {
                                             <li className="list-group-item">Git</li>
                                             <li className="list-group-item">Jenkins</li>
                                         </ul>
-                                    </div>
+                                    </div> */}
                                 </div>              
                             </div>
                     </div>
@@ -651,11 +865,11 @@ export default function Content() {
                         <h2 className="heading">Education</h2>
                         <div className="content">
                             <div className="item">                      
-                                <h3 className="title"><i className="fas fa-graduation-cap"></i> Information Tehcnology | S1</h3>
+                                <h3 className="title"><i className="fas fa-graduation-cap"></i> Informatics Engineering | Bachelor Degree</h3>
                                 <h4 className="university">Universitas Narotama <span className="year">(2024-2025)</span></h4>
                             </div>
                             <div className="item">                      
-                                <h3 className="title"><i className="fas fa-graduation-cap"></i> Information Tehcnology | D3</h3>
+                                <h3 className="title"><i className="fas fa-graduation-cap"></i> Informatics Engineering | Associate Degree</h3>
                                 <h4 className="university">Politeknik Amamapare Timika <span className="year">(2016-2019)</span></h4>
                             </div>
                         </div>

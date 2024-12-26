@@ -833,3 +833,19 @@ body {
     }
   }
   
+
+  .badge-skill {
+    display: flex;
+    border: 1px solid rgb(149, 149, 149);
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    gap: 0.3rem;
+    padding: 0.2rem;
+    user-select: none;
+    -moz-user-select: none;
+  }
+
+  body[data-theme="dark"] .badge-skill {
+    border: 1px solid rgba(242, 243, 244, 0.5);
+  }
