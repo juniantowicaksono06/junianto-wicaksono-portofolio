@@ -678,12 +678,6 @@ export default function Content() {
                                             </div>
                                             <div className="col-4 col-lg-6 mb-2">
                                                 <span className="rounded-pill bg-transparent w-100 badge-skill">
-                                                    <img src="https://static-00.iconduck.com/assets.00/flutter-icon-2048x2048-ufx4idi8.png" alt="" width={24} height={24} />
-                                                    <span>Flutter</span>
-                                                </span>
-                                            </div>
-                                            <div className="col-4 col-lg-6 mb-2">
-                                                <span className="rounded-pill bg-transparent w-100 badge-skill">
                                                     <img src="https://static-00.iconduck.com/assets.00/laravel-icon-995x1024-dk77ahh4.png" alt="" width={24} height={24} />
                                                     <span>Laravel</span>
                                                 </span>

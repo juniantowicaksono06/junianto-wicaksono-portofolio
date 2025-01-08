@@ -64,7 +64,7 @@ export default function Header() {
                         </Link>        
                     </div>
                     <div>
-	                    <Link className="btn btn-danger w-100 d-flex align-items-center justify-content-center mt-2" href="https://drive.google.com/file/d/1vH8FSWK9I6zeHOIxDWSbbMiCT21FIYVk/view?usp=sharing" target="_blank" style={{marginTop: '0'}}>
+	                    <Link className="btn btn-danger w-100 d-flex align-items-center justify-content-center mt-2" href="https://drive.google.com/file/d/1iA_IXNdrhJ25g_M9rAqVJdcVKTVEWdBp/view?usp=sharing" target="_blank" style={{marginTop: '0'}}>
                             <i className="fas fa-file-pdf mt-1"></i> 
                             <span>Download Resume</span>
                         </Link>        
