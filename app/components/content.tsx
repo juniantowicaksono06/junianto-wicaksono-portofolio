@@ -413,7 +413,7 @@ export default function Content() {
                                 </ul>
                             </div>
                             <div className="item">
-                                <h3 className="title">Full-stack Developer - <span className="place"><Link href="https://ptkam.co.id/id/" target='_blank'>Vascomm Solusi Teknologi</Link></span> <span className="year">(Jan 2024 - Apr 2024)</span></h3>
+                                <h3 className="title">Fullstack Developer - <span className="place"><Link href="https://ptkam.co.id/id/" target='_blank'>Vascomm Solusi Teknologi</Link></span> <span className="year">(Jan 2024 - Apr 2024)</span></h3>
                                 <ul>
                                     <li>Integrate Montiro API with BTN Smart Residence to provide mechanic and towing bookingfeatures, expanding the app's service reach using Laravel 8.</li>
                                     <li>Perform API testing and ensuring that all functionalities of the API are working well.</li>
