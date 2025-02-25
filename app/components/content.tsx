@@ -772,7 +772,7 @@ export default function Content() {
                                             </div>
                                             <div className="col-4 col-lg-6 mb-2">
                                                 <span className="rounded-pill bg-transparent w-100 badge-skill">
-                                                    <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/aws-icon.png" alt="" width={24} height={24} />
+                                                    <img src="https://www.cascadeo.com/wp-content/uploads/2022/11/KRgw2UkV_400x400.jpg" alt="" width={24} height={24} />
                                                     <span>AWS</span>
                                                 </span>
                                             </div>
