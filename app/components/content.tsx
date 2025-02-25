@@ -440,7 +440,7 @@ export default function Content() {
                             <div className="item">
                                 <h3 className="title">Admin Staff - <span className="place">Angkasa Aviasi Servis</span> <span className="year">(Oct 2019 - Oct 2020)</span></h3>
                                 <ul>
-                                    <li>Manage daily administrative tasks such as document management, record updates, andgeneral administration to support Pasasi operations.</li>
+                                    <li>Manage daily administrative tasks such as document management, record updates, and general administration to support Pasasi operations.</li>
                                     <li>Process and analyze data related to Pasasi activities, including database management andreporting to provide accurate and timely information.</li>
                                 </ul>
                             </div>
